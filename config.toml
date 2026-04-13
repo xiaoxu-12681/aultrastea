@@ -1,0 +1,37 @@
+baseURL = "https://aultrastea.netlify.app/"
+languageCode = "en-us"
+title = "Aultras Tea - Premium Organic Tea Exporter"
+theme = "hugo-theme-learn" # 我们稍后会通过静态文件实现主题
+
+# 菜单设置
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "/products/"
+    weight = 2
+  [[menu.main]]
+    identifier = "qualifications"
+    name = "Qualifications"
+    url = "/qualifications/"
+    weight = 3
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 4
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+# 相关参数
+[params]
+    description = "Aultras Tea - High Quality Organic Tea from China"
+    author = "Aultras Tea Team"
